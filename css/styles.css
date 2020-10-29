@@ -1,0 +1,29 @@
+/* :Hover */
+
+p::first-letter {
+  font-size: 3em;
+}
+p::first-line {
+  font-weight: bold;
+}
+p:hover {
+  color: red;
+}
+
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color: green;
+}
